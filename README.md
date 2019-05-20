@@ -30,3 +30,6 @@ Censor many images
 ```bash
 for i in path_to_images/*.jpg; do echo "Censoring ${i}..."; ./censor.sh "$i";done
 ```
+
+By default, censor.sh blurs and censor-pixelate.sh pixelates. Choose
+whatever works best for your use-case.
