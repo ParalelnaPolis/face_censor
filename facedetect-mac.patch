@@ -1,0 +1,11 @@
+--- facedetect.orig	2019-05-20 11:44:45.000000000 +0200
++++ facedetect	2019-05-20 11:43:57.000000000 +0200
+@@ -34,7 +34,7 @@
+ 
+ 
+ # Profiles
+-DATA_DIR = '/usr/share/opencv/'
++DATA_DIR = '/usr/local/share/opencv4/'
+ CASCADES = {}
+ 
+ PROFILES = {
